@@ -27,15 +27,15 @@ post_settings:
   grid_spacing: 10
 
 contact_settings:
-  form_action: ''
+  form_action: 'https://formspree.io/mayqawvd'
   confirmation_url: '/thanks'
   email_subject: 'Contact form submission'
   send_button_text: 'Send Message'
 
 social_settings:
   facebook_url: ''
-  twitter_url: 'twitter.com/Rynji'
-  instagram_url: 'www.instagram.com/timon.pixel/'
+  twitter_url: 'https://twitter.com/Rynji'
+  instagram_url: 'https://www.instagram.com/timon.pixel/'
   snapchat_url: ''
   youtube_url: ''
   google-plus_url: ''
@@ -58,7 +58,7 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: 'www.linkedin.com/in/timon-n-48814817a/'
+  linkedin_url: 'https://www.linkedin.com/in/timon-n-48814817a/'
 
 color_settings:
   background_color: '#ffffff'
