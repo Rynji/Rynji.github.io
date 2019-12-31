@@ -1,10 +1,10 @@
 ---
 title: Thank you
 subtitle: Your message was sent successfully.
-description: A sleek, modern Jekyll theme for personal websites.
+description: Thanks for sending me a message!
 featured_image: /images/headers/contact.jpg
 ---
 
-![](/images/demo/about.jpg)
+![](/images/headers/contact_thanks.jpg)
 
-Please note, this contact form is for demo purposes only and is not monitored. Please contact us [via our website](https://jekyllthemes.io) if you need support.
+Thank you for contacting me! I'll try to respond as quick as possible.
