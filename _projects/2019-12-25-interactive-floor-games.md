@@ -1,106 +1,108 @@
 ---
 title: 'Interactive Floor Games'
-subtitle: 'Highlights from several games'
+subtitle: 'Highlights from the development of the games I worked on'
 date: 2019-12-25
 description: Multiple games I developed have released on the Interactive Floor platform the past 2 years. These are some development highlights.
 featured_image: '/images/projects/floor-games/reuzentranenSiteSmall.jpg'
 ---
 
-![](/images/demo/demo-landscape.jpg)
+Below are my personal highlights of the development of the games I've worked on at [Springlab](https://springlab.nl).
+Five games have released so far and the sixth is under development.  
+Usually, one game designer leads a _game project_ and each game has one game developer (we have 2 of both). The game designer draws out the game using a screen flow; this screen flow is the base which the developers work from.  
+I always work closely together with those involved, iterating on implementations to make sure the end result is up to our standards.
 
-## Demo content
+----
 
-This page is a demo that shows everything you can do inside portfolio and blog posts.
+#### Reuzentranen (Giant's Tears)
+This game is built using entirely 2D assets but using a perspective view. Making the gameworld a believable, traversable space. 
+_Reuzentranen_ is designed to be an interactive, linear story telling game. Players follow the main-character through a series of events.  
 
-We've included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
-
-**Obviously,** we’ve styled up *all the basic* text formatting options [available in markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-You can create lists:
-
-* Simple bulleted lists
-* Like this one
-* Are cool
-
-And:
-
-1. Numbered lists
-2. Like this other one
-3. Are great too
-
-You can also add blockquotes, which are shown at a larger width to help break up the layout and draw attention to key parts of your content:
-
-> “Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.”
-
-The theme also supports markdown tables:
-
-| Item                 | Author        | Supports tables? | Price |
-|----------------------|---------------|------------------|-------|
-| Duet Jekyll Theme    | Jekyll Themes | Yes              | $49   |
-| Index Jekyll Theme   | Jekyll Themes | Yes              | $49   |
-| Journal Jekyll Theme | Jekyll Themes | Yes              | $49   |
-
-And footnotes[^1], which link to explanations[^2] at the bottom of the page[^3].
-
-[^1]: Beautiful modern, minimal theme design.
-[^2]: Powerful features to show off your work.
-[^3]: Maintained and supported by the theme developer.
-
-You can throw in some horizontal rules too:
-
----
-
-### Image galleries
-
-Here's a really neat custom feature we added – galleries:
-
-<div class="gallery" data-columns="3">
-	<img src="/images/demo/demo-portrait.jpg">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-square.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
+<div class="gallery" data-columns="4">
+    <img src="/images/projects/floor-games/reusgame/reus_00intro_design.jpg">
+    <img src="/images/projects/floor-games/reusgame/reus_00intro_game.jpg">
+	<img src="/images/projects/floor-games/reusgame/reus_02frogger_design.jpg">
+	<img src="/images/projects/floor-games/reusgame/reus_02frogger_game.jpg">
 </div>
 
-Inspired by the Galleries feature from WordPress, we've made it easy to create grid layouts for your images. Just use a bit of simple HTML in your post to create a masonry grid image layout:
+The game starts with an introduction sequence where the camera zooms in through a layer of leaves. I used a sprite shader which writes to depth so I could apply a depth of field post process effect.
+This is also used later on when the players climb up a tree, the higher they go the more blurred the background becomes (depth of field).  
+From the intro to the tree the players jump from mushroom to mushroom on leaves. 
 
-```html
-<div class="gallery" data-columns="3">
-    <img src="/images/demo/demo-portrait.jpg">
-    <img src="/images/demo/demo-landscape.jpg">
-    <img src="/images/demo/demo-square.jpg">
-    <img src="/images/demo/demo-landscape-2.jpg">
+<div class="gallery" data-columns="4">
+    <img src="/images/projects/floor-games/reusgame/reus_03klimmen_design.jpg">
+    <img src="/images/projects/floor-games/reusgame/reus_03klimmen_game.jpg">
+	<img src="/images/projects/floor-games/reusgame/reus_05hand_design.jpg">
+	<img src="/images/projects/floor-games/reusgame/reus_05hand_game.jpg">
 </div>
+
+Whenever the main character moves it is using a waypoint system I built. Waypoints are placed in the editor and assigned there, these can vary from walking, running & crawling waypoints.
+
+
+```csharp
+public IEnumerator DoWaypoints()
+{
+    sharedObjects.PukTopDownObject.GetComponent<BoxCollider2D>().enabled = true; //Collider used to interact with environment in specific levels.
+    GameObject pukToMove;
+
+    for (int i = 0; i < waypoints.Count; i++)
+    {
+        pukToMove = SetCorrectPukObject(waypoints[i]);
+        SetCorrectPrefabActive(waypoints[i]);
+
+        if(i != waypoints.Count - 1 && i != waypoints.Count) //Second one obselote, first one catches all. But still...
+        {
+            Vector3 start, end;
+            float time;
+
+            start = waypoints[i].WaypointPosition;
+            end = waypoints[i + 1].WaypointPosition;
+            time = GetSpeedByWaypoint(waypoints[i].WaypointPosition, waypoints[i + 1].WaypointPosition);
+
+            SetCorrectAnimation(waypoints[i]);
+
+            //Time modifiers to line up speed with specific animations
+            if ((int)waypoints[i].PukAnimation == 6 || (int)waypoints[i].PukAnimation == 7 || (int)waypoints[i].PukAnimation == 8) //Walking (down, left & right)
+            {
+                time *= 1.66f;
+            }
+            if ((int)waypoints[i].PukAnimation == 11 || (int)waypoints[i].PukAnimation == 12) //Jump left & right
+            {
+                time = jumpAnimDuration / jumpAnimSpeed;
+            }
+
+            //Do actual movement based on current waypoint.
+            if (i == 0)//First one eases in.
+            {
+                yield return StartCoroutine(ReusAnimationHelper.LerpVector3(start, end, time, (x) => pukToMove.transform.localPosition = x, "easein"));
+            }
+            else if (i == waypoints.Count - 2)//Last one eases out.
+            {
+                yield return StartCoroutine(ReusAnimationHelper.LerpVector3(start, end, time, (x) => pukToMove.transform.localPosition = x, "easeout"));
+            }
+            else//Default is just linear movement
+            {
+                yield return StartCoroutine(ReusAnimationHelper.LerpVector3(start, end, time, (x) => pukToMove.transform.localPosition = x, "linear"));
+            }
+        }
+
+        else if (i == waypoints.Count - 1)//If actual final waypoint reached, set animation accordingly but don't move.
+        {
+            sharedObjects.PukTopDownAnimator.SetInteger("State", (int)waypoints[i].PukAnimation);
+            pukToMove.transform.localPosition = waypoints[i].WaypointPosition;
+        }
+
+        else
+        {
+            yield return 0;
+        }
+    }
+
+    sharedObjects.PukTopDownObject.GetComponent<BoxCollider2D>().enabled = false;
+    yield return 0;
+}
 ```
 
-*See what we did there? Code and syntax highlighting is built-in too!*
+<iframe src="https://pastebin.com/embed_iframe/ESAwKZXU" style="border:none;width:100%;height:400px"></iframe>
 
-Change the number inside the 'columns' setting to create different types of gallery for all kinds of purposes. You can even click on each image to seamlessly enlarge it on the page.
-
----
-
-### Image carousels
-
-Here's another gallery with only one column, which creates a carousel slide-show instead.
-
-A nice little feature: the carousel only advances when it is in view, so your visitors won't scroll down to find it half way through your images.
-
-<div class="gallery" data-columns="1">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
-</div>
-
-### What about videos?
-
-Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
-
-<iframe src="https://player.vimeo.com/video/148003889" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-
----
-
-## Pretty cool, huh?
-
-We've packed this theme with powerful features to show off your work.
-
-Why not put them to use on your new portfolio?
-
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--large">Get This Theme</a>
+One of the requirements of all the linear games we're building is that every chapter can be skipped. For this reason I've built a _phase system_ which controls how a phase starts (its state) and it handles the ending of itself.  
+This way phases can always be started individually as long as you initiate them properly. This system allows for a reliable way to make multiple chapters in a game 
