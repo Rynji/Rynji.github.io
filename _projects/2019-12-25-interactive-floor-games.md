@@ -29,7 +29,7 @@ Leaves are _pooled_, meaning when a leaf exits the screen it is reset to the top
 
 Below is a code sample of how the leaves handle collision with the player and with one another. Leaves boost through each other, but stop for a player.
 I have chosen this snippet because it solves a few design problems regarding interaction with the leaves.
-<script src="https://gist.github.com/Rynji/b00232343cd244b3c2757c386c9d8f85.js"></script>
+<script src="https://gist.github.com/Rynji/b00232343cd244b3c2757c386c9d8f85.js" type="text/javascript"></script>
 
 ![](/images/projects/floor-games/reusgame/reus_03klimmen_collage.jpg)
 
@@ -64,7 +64,7 @@ Every time a stuffed animal moves a certain amount it sends a call to the Partic
 Below is a video of the system in action, the ball is used to simulate a single player on the [interactive floor platform](/project/interactive-floor-project).
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.000%;"><iframe src="https://streamable.com/s/lszsv/osnpfh" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 Below is a combined snippet of the core of the particles handling.
-<script src="https://gist.github.com/Rynji/4ac674e509a2676cf9588bf4f81a9044.js"></script>
+<script src="https://gist.github.com/Rynji/4ac674e509a2676cf9588bf4f81a9044.js" type="text/javascript"></script>
 
 The second phase includes a grid based mechanic where a path of footprints appears. By standing on a footprint it gets cleaned, after all footprints are cleaned an object with potentially the stuffed animal in it spawns.
 Due to time constraints I have chosen pre-defined paths (instead of on-the-fly generated paths with pathfinding). These paths are defined in the editor, chosen at random in runtime and rendered on a runtime generated grid.
@@ -74,7 +74,7 @@ The grid is generated with each tile as a gameobject. Every tile has two assigna
 
 Shown left is the grid/path mechanic as drawn by the designer, on the right is the grid I generated in code.
 Below is the code used to generate the grid, a single path and a part of the implementation to show how it is set up & used.
-<script src="https://gist.github.com/Rynji/d2c481a8598b2bbf51782f8b596cbbb9.js"></script>
+<script src="https://gist.github.com/Rynji/d2c481a8598b2bbf51782f8b596cbbb9.js" type="text/javascript"></script>
 
 This is what a single path looks like in the editor and ingame. it is easy to create multiple pre-defined paths for the game to choose from.
 
