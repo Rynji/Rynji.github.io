@@ -122,6 +122,12 @@ $footer-logo-width: {{ site.data.settings.footer_settings.logo_width }}px;
 $overlay-opacity: {{ site.data.settings.hero_settings.overlay_opacity }};
 $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
 
+// Gist
+.gist-data{
+    max-height:375px;
+    overflow-y: visible;
+}
+
 
 
 // - - - - - - - - - - Global styles
