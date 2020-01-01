@@ -48,7 +48,7 @@ And footnotes[^1], which link to explanations[^2] at the bottom of the page[^3].
 
 You can throw in some horizontal rules too:
 
----
+----
 
 ### Image galleries
 
@@ -76,7 +76,7 @@ Inspired by the Galleries feature from WordPress, we've made it easy to create g
 
 Change the number inside the 'columns' setting to create different types of gallery for all kinds of purposes. You can even click on each image to seamlessly enlarge it on the page.
 
----
+----
 
 ### Image carousels
 
@@ -95,7 +95,7 @@ Videos are an awesome way to show off your work in a more engaging and personal 
 
 <iframe src="https://player.vimeo.com/video/148003889" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
----
+----
 
 ## Pretty cool, huh?
 
