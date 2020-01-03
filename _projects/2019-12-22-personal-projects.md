@@ -1,106 +1,62 @@
 ---
-title: 'Personal Projects'
-subtitle: 'Some smaller personal projects & work done at companies during my bachelor years'
+title: 'Personal Projects & Intern'
+subtitle: '(2014-2016) Some smaller personal projects & an intership from my bachelor years'
 date: 2019-12-22
-description: 'Includes: Day night cycle game, character customiser, spider game with custom mesh webs'
-featured_image: '/images/demo/demo-square.jpg'
+description: 'Character customiser with interface, day/night cycle game and a spidergame using an on-the-fly generated mesh as a web.'
+featured_image: '/images/projects/personal-projects/hibernate_screenshot.png'
 ---
 
-![](/images/demo/demo-landscape.jpg)
+#### Rumble Run - Character customiser with interface
 
-## Demo content
+Internship project made during my bachelor years. I was put on a small team of developers creating a multiplayer mobile runner type game.  
+One of the key selling points was to have a custom character you could build to show off to your friends & foes. I took up the task of building this character customiser and the interface surrounding it. 
+<br/> <br/>
 
-This page is a demo that shows everything you can do inside portfolio and blog posts.
+<div style="width:100%;height:0px;position:relative;padding-bottom:55.886%;"><iframe src="https://streamable.com/s/jcwar/mvmwew" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
-We've included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
+The colour custimisation runs on a custom shader that was written for the game. The character's texture is rendered in realtime using a rendertexture, this way I could change colours on the fly.
+Before gameplay starts the texture is saved to an actual static texture. Armour customisation uses anchor points placed on the characters; this is where I parent the armour pieces to.  
 
-**Obviously,** we’ve styled up *all the basic* text formatting options [available in markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+![](/images/projects/personal-projects/rumble_run_head_code.png)
 
-You can create lists:
+If I were tasked with this today I would program it differently; my 2015 implementation has a method for every body piece (!) This is not maintainable in the long run. I would design the system to be more modular and tweakable. 
+One thing I do like about the system is that I loaded all the armour pieces through XML. This way designers could add armour pieces and the like to the game without any programming required. Though nowadays I would probably use JSON because it is more widely supported.
 
-* Simple bulleted lists
-* Like this one
-* Are cool
+![](/images/projects/personal-projects/rumble_run_xml.png)
 
-And:
+Besides a lot of programming lessens I learned a lot about user interfaces during this project as well. 
 
-1. Numbered lists
-2. Like this other one
-3. Are great too
+----
 
-You can also add blockquotes, which are shown at a larger width to help break up the layout and draw attention to key parts of your content:
+#### Mountaineer - Small scope mobile game
 
-> “Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.”
+Mountainer is a game I programmed back in 2015 where I wanted to create a fully functional game I could play and show on my phone. It is a game of type endless runner where you keep dodging obstacles for as long as possible.  
+Object pooling is used for all objects spawning over the 7 lanes the game has. The landscape is endlessly scrolled. I did all the modelling work on this game as well using 3ds Max. It was a fun little project and interesting to make a game from scratch playable on my phone. <br/><br/>
 
-The theme also supports markdown tables:
+<div style="width:100%;height:0px;position:relative;padding-bottom:49.921%;"><iframe src="https://streamable.com/s/ka05g/jiwlef" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
-| Item                 | Author        | Supports tables? | Price |
-|----------------------|---------------|------------------|-------|
-| Duet Jekyll Theme    | Jekyll Themes | Yes              | $49   |
-| Index Jekyll Theme   | Jekyll Themes | Yes              | $49   |
-| Journal Jekyll Theme | Jekyll Themes | Yes              | $49   |
+The sourcecode can be found on git: [https://github.com/Rynji/Mountaineer](https://github.com/Rynji/Mountaineer/tree/master/Assets)
 
-And footnotes[^1], which link to explanations[^2] at the bottom of the page[^3].
+----
 
-[^1]: Beautiful modern, minimal theme design.
-[^2]: Powerful features to show off your work.
-[^3]: Maintained and supported by the theme developer.
+#### SpiderBro - Custom interactable mesh
 
-You can throw in some horizontal rules too:
+SpiderBro is a game I created with a group during my bachelor as a school project. You control a spider that can shoot out webs which you use to complete levels in the game.  
+The web creation works by creating a triangle mesh on the fly. The first vertex of the triangle is always created at player position, the other 2 vertexes on projectiles. These projectiles stick to a wall thus creating a static web to climb on. The climbing is achieved by adding a mesh collider to the newly created mesh.
 
----
+<sub>_//Mesh creation code was hosted on the universities' GitLab - trying to recover it..._ </sub><br/>
+<br/>
 
-### Image galleries
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.226%;"><iframe src="https://streamable.com/s/rb7iy/tmjptt" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
-Here's a really neat custom feature we added – galleries:
+----
 
-<div class="gallery" data-columns="3">
-	<img src="/images/demo/demo-portrait.jpg">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-square.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
-</div>
+#### Nightfall - Day/night cycle used in gameplay
 
-Inspired by the Galleries feature from WordPress, we've made it easy to create grid layouts for your images. Just use a bit of simple HTML in your post to create a masonry grid image layout:
+A small game i made during my bachelor years incorporating a day/night cycle into the game mechanics.
+The player starts during the day with a goal of finding as much lantern oil as possible to aid him during nighttime. As soon as night falls enemies will spawn and time is limited by how long your lantern will last.  
+Your goal is to escape during the night through a randomly placed exit; the light of your lantern being your only guidance.
 
-```html
-<div class="gallery" data-columns="3">
-    <img src="/images/demo/demo-portrait.jpg">
-    <img src="/images/demo/demo-landscape.jpg">
-    <img src="/images/demo/demo-square.jpg">
-    <img src="/images/demo/demo-landscape-2.jpg">
-</div>
-```
+![](/images/projects/personal-projects/nightfall.png)
 
-*See what we did there? Code and syntax highlighting is built-in too!*
 
-Change the number inside the 'columns' setting to create different types of gallery for all kinds of purposes. You can even click on each image to seamlessly enlarge it on the page.
-
----
-
-### Image carousels
-
-Here's another gallery with only one column, which creates a carousel slide-show instead.
-
-A nice little feature: the carousel only advances when it is in view, so your visitors won't scroll down to find it half way through your images.
-
-<div class="gallery" data-columns="1">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
-</div>
-
-### What about videos?
-
-Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
-
-<iframe src="https://player.vimeo.com/video/148003889" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-
----
-
-## Pretty cool, huh?
-
-We've packed this theme with powerful features to show off your work.
-
-Why not put them to use on your new portfolio?
-
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--large">Get This Theme</a>
