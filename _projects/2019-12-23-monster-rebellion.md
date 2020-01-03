@@ -1,106 +1,24 @@
 ---
 title: 'Monster Rebellion'
-subtitle: 'Location Based Mobile Game using GPS'
+subtitle: '(2017) Location Based Mobile Game using GPS'
 date: 2019-12-23
-description: Fun game project I worked on while working on my bachelor thesis. A mobile game using location coördinates with interaction to stimulate children to walk to school instead of being brought by vehicle.
-featured_image: '/images/demo/demo-square.jpg'
+description: Mobile game project I worked on while working on my bachelor thesis. A mobile game using location coördinates with interaction to stimulate children to walk to school instead of being brought by vehicle.
+featured_image: '/images/projects/monster-rebellion/header_screenshot.png'
 ---
 
-![](/images/demo/demo-landscape.jpg)
+Monster Rebellion is a game [developed for](https://goedopweg.nl/nieuws/ontwikkeling-monster-rebellion) the municipality Utrecht. The goal of the game is to stimulate children in Utrecht to walk to their schools instead of having their parents bring them by car. This is controlled by having the app only be playable during set times when the children travel to and from school.
 
-## Demo content
+In the game the players have a shared city which they have to maintain. If not maintained the city wel detoriate over time; the city's state is stored in a database. By going outside with the application and finding set locations in their neighbourhood children can find _clues_ which, when gathered over multiple days, can lead to monster's locations. By catching monsters the players make sure their city will not crumble.
 
-This page is a demo that shows everything you can do inside portfolio and blog posts.
+![](/images/projects/monster-rebellion/city_overview.jpg)
 
-We've included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
+The city is generated on an isometric grid in runtime using a 2D array; The generation is done in runtime because the buildings can vary based on the city's state. By catching monsters players can upgrade their city. Location visuals will also unlock on the city overview when visited in real life.
 
-**Obviously,** we’ve styled up *all the basic* text formatting options [available in markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+![](/images/projects/monster-rebellion/location_clue.jpg)
 
-You can create lists:
+A location where clues can be found is shown above. Clues are stored in a players personal room so they can be reviewed later. This project was one of the first where I learned to use LINQ. Some usage can be seen in the snippet below which belongs to the handling of displaying clues in a player's room.
 
-* Simple bulleted lists
-* Like this one
-* Are cool
+<script src="https://gist.github.com/Rynji/793f763d58e8234b483e421c8557a775.js" type="text/javascript"></script> 
 
-And:
+All in all this was a fun project to work on. To go from a paper prototype created by the interaction designer to building an interactive application and [getting it into the players hands](https://www.facebook.com/goedopweg/videos/1543705095743094/).
 
-1. Numbered lists
-2. Like this other one
-3. Are great too
-
-You can also add blockquotes, which are shown at a larger width to help break up the layout and draw attention to key parts of your content:
-
-> “Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.”
-
-The theme also supports markdown tables:
-
-| Item                 | Author        | Supports tables? | Price |
-|----------------------|---------------|------------------|-------|
-| Duet Jekyll Theme    | Jekyll Themes | Yes              | $49   |
-| Index Jekyll Theme   | Jekyll Themes | Yes              | $49   |
-| Journal Jekyll Theme | Jekyll Themes | Yes              | $49   |
-
-And footnotes[^1], which link to explanations[^2] at the bottom of the page[^3].
-
-[^1]: Beautiful modern, minimal theme design.
-[^2]: Powerful features to show off your work.
-[^3]: Maintained and supported by the theme developer.
-
-You can throw in some horizontal rules too:
-
----
-
-### Image galleries
-
-Here's a really neat custom feature we added – galleries:
-
-<div class="gallery" data-columns="3">
-	<img src="/images/demo/demo-portrait.jpg">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-square.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
-</div>
-
-Inspired by the Galleries feature from WordPress, we've made it easy to create grid layouts for your images. Just use a bit of simple HTML in your post to create a masonry grid image layout:
-
-```html
-<div class="gallery" data-columns="3">
-    <img src="/images/demo/demo-portrait.jpg">
-    <img src="/images/demo/demo-landscape.jpg">
-    <img src="/images/demo/demo-square.jpg">
-    <img src="/images/demo/demo-landscape-2.jpg">
-</div>
-```
-
-*See what we did there? Code and syntax highlighting is built-in too!*
-
-Change the number inside the 'columns' setting to create different types of gallery for all kinds of purposes. You can even click on each image to seamlessly enlarge it on the page.
-
----
-
-### Image carousels
-
-Here's another gallery with only one column, which creates a carousel slide-show instead.
-
-A nice little feature: the carousel only advances when it is in view, so your visitors won't scroll down to find it half way through your images.
-
-<div class="gallery" data-columns="1">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
-</div>
-
-### What about videos?
-
-Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
-
-<iframe src="https://player.vimeo.com/video/148003889" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-
----
-
-## Pretty cool, huh?
-
-We've packed this theme with powerful features to show off your work.
-
-Why not put them to use on your new portfolio?
-
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--large">Get This Theme</a>

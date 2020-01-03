@@ -1,6 +1,6 @@
 ---
 title: 'Interactive Floor Platform'
-subtitle: 'From prototype to full grown product with over 100 units sold'
+subtitle: '(2017-2020) From prototype to full grown product with over 100 units sold'
 date: 2019-12-24
 description: From graduation thesis on tracking in 3D space to prototype to a released product. The platform is used to apply embodied learning in a playful way using interactive games. I've developed its prototype and helped it grow to a fully developed product.
 featured_image: '/images/projects/floor-project/floor_project_banner.jpg'
