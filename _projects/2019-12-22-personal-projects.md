@@ -8,9 +8,8 @@ featured_image: '/images/projects/personal-projects/hibernate_screenshot.png'
 
 #### Rumble Run - Character customiser with interface
 
-Internship project made during my bachelor years. I was put on a small team of developers creating a multiplayer mobile runner type game. One of the key selling points was to have a custom character you could build to show off to your friends & foes. I took up the task of building this character customiser and the interface surrounding it.  
-I took up the task of designing the interface, because there wasn't a design for it yet and I had a clear idea of how to implement this interface together with programming the logic behind it.
-The interface was developed using a grid-based layout with the categories to the side. I made a lot of builds during this process, handing it over to different people to try it out and tweak based on feedback. The interface is placed in world space with a slight angle, giving it a nice 3D look. In the end the graphics were added by the artist.  
+Internship project made during my bachelor years. I was assigned to a small team of developers creating a multiplayer mobile runner type game. One of the key selling points was to have a custom character you could build to show off to your friends & foes. I took up the task of building this character customiser and the interface surrounding it as I head a clear vision of how to build this.  
+I designed and programmed the character customisation interface. The interface was developed using a grid-based layout with the categories to the side. Regular development builds were tested by stakeholders to get early feedback. The interface is placed in world space with a slight angle, giving it a nice 3D look. The final version included graphics from a graphics artist.
 Below are some shots from the interface during development and a video of it in action.
 
 <div class="gallery" data-columns="3">
@@ -27,8 +26,7 @@ Before gameplay starts the texture is saved to an actual static texture. Armour 
 
 ![](/images/projects/personal-projects/rumble_run_head_code.png)
 
-If I were tasked with this today I would program it differently; my 2015 implementation has a method for every body piece (!) This is not maintainable in the long run. I would design the system to be more modular and tweakable. 
-One thing I do like about the system is that I loaded all the armour pieces through XML. This way designers could add armour pieces and the like to the game without any programming required. Though nowadays I would probably use JSON because it is more widely supported.
+During the development of this game I have learnt the value of modular game design. One example is the code of applying armour pieces to the character (seen above). Each indivdual piece required a change in the game's code. This generated a lot of overhead for code maintenance. The other end of this system was implemented with scalability in mind. New equipment pieces are added through XML. This XML is parsed by the game when it loads all the equipment pieces.
 
 ![](/images/projects/personal-projects/rumble_run_xml.png)
 

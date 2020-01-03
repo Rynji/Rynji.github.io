@@ -8,9 +8,9 @@ featured_image: '/images/projects/floor-games/allgamesbanner.png'
 
 Below is a list of the games I've worked on at [Springlab](https://springlab.nl).  
 I've made a page for each game with my personal highlights where I talk about the development and the implementation of game systems.
-All games are played on the [Interactive Floor Platform](/project/interactive-floor-project). Five games have released so far to over 100 costumers and the sixth is under development.
+All games are played on the [Interactive Floor Platform](/project/interactive-floor-project). Five games have released so far to over 100 customers.
 
-During development one game designer leads a specific _game project_ and each game has one game programmer (we have 2 of both). The game designer draws out the game using a screen flow; this screen flow is the base which the developers work from.  
+Each game development project has one lead game designer and one game programmer. The game designer draws out the game using a screen flow; this screen flow is the base which the developers work from.  
 I always work closely together with those involved (designers, artists, animators), iterating on implementations to make sure the end result is up to everyone's standards. Games #1, #2 and #5 have been developed in collaboration with [Zwijsen](https://www.zwijsen.nl/lesmethoden/peuterpakket-bewegend-leren).
 
 ----

@@ -8,7 +8,7 @@ featured_image: '/images/projects/monster-rebellion/header_screenshot.png'
 
 Monster Rebellion is a game [developed for](https://goedopweg.nl/nieuws/ontwikkeling-monster-rebellion) the municipality Utrecht. The goal of the game is to stimulate children in Utrecht to walk to their schools instead of having their parents bring them by car. This is controlled by having the app only be playable during set times when the children travel to and from school.
 
-In the game the players have a shared city which they have to maintain. If not maintained the city wel detoriate over time; the city's state is stored in a database. By going outside with the application and finding set locations in their neighbourhood children can find _clues_ which, when gathered over multiple days, can lead to monster's locations. By catching monsters the players make sure their city will not crumble.
+In the game the players have a shared city which they have to maintain. If not maintained the city will detoriate over time; the city's state is stored in a database. The city is a representation of the real world. By roaming the real world, the game world can be explored. Children can roam the city to find clues. The game only gives you small clues at a single occasion, motivating the children to go out on a regular basis. By collecting clues monster locations can be discovered. Catching monsters will keep the city from deteriorating.
 
 ![](/images/projects/monster-rebellion/city_overview.jpg)
 

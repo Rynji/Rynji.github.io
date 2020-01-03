@@ -18,7 +18,7 @@ The mechanic is designed around approaching the bird slowly. If the players appr
 Video showing the mechanic (with debug circles active) in action. The tomato is used in-editor to simulate a player on the floor. Code is shown below.
 <script src="https://gist.github.com/Rynji/6a3b6c37eb9ac84e0c6065a75000e350.js" type="text/javascript"></script>
 
-I have chosen to include this snippet, because looking back I probably would've made this piece more readable by for example performing the recurring checks in a method. This way tweaks could be made to the check to allow for different implementations as well; But given this project's circumstances the shown implementation works well enough.
+The snippet above is not something to be proud of. Recurring checks written in a sequential matter does not improve readability of the code. In this case the code works well for the game, but a refactor would have not been out of place here.
 
 Next up comes the main mechanic of the game. The players are tasked with comparing the bird to different kinds of animals entering the screen. After 3 comparisons the bird's family will enter the screen and they'll live happily ever after.  
 One of the cooler challenges was making a magnifying glass used to examine the animals under. I ended up using sprite masks. The magnifying glass is a mask, under this mask a big version of the animals is visible; outside this mask a small one is visible. See it in action and from design to ingame below.

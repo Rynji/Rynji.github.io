@@ -2,21 +2,21 @@
 title: Reuzentranen (Giant's Tears)
 subtitle: 'An engaging storytelling game for the interactive floor platform'
 date: 2017-12-31
-description: Linear story telling game
+description: Linear storytelling game
 featured_image: '/images/projects/floor-games/floor-games_tile.jpg'
 exclude: true
 ---
 
 ### Reuzentranen (Giant's Tears)
 This game is built using entirely 2D assets but using a perspective view. Making the gameworld a believable, traversable space. 
-_Reuzentranen_ is designed to be an interactive, linear story telling game. Players follow the main-character through a series of events.
+_Reuzentranen_ is designed to be an interactive, linear storytelling game. Players follow the main-character through a series of events.
 
 For this game I built a [phase system](#fees) used in multiple games. The game starts with an introduction sequence where the camera zooms in through a layer of leaves. I used a sprite shader which writes to the depth buffer so I could apply a depth of field post process effect.
 This depth of field effect is used throughout the game. 
 
 ![](/images/projects/floor-games/reusgame/reus_00intro_collage.jpg)
 
-The next sequence has the players jump from leaf to leaf to reach the next dry 'land'. Leaves stop when stepped on to help the players cross.  
+The next sequence has the players jump from leaf to leaf to reach the next dry 'land'. Leaves freeze when stepped on to help the players cross.  
 Leaves are _pooled_, meaning when a leaf exits the screen it is reset to the top; pooling is used to keep performance steady. 
  
 ![](/images/projects/floor-games/reusgame/reus_02frogger_collage.jpg)
