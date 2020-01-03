@@ -1,6 +1,6 @@
 ---
-title: 'Personal Project & Internship'
-subtitle: '(2015-2016) A smaller self-made game & an intership from my bachelor years'
+title: 'Internship & Personal Project'
+subtitle: '(2015-2016) A character customiser with an interface & personal game development project'
 date: 2019-12-22
 description: 'Character customiser with interface and developed mobile game'
 featured_image: '/images/projects/personal-projects/hibernate_screenshot.png'
@@ -8,12 +8,19 @@ featured_image: '/images/projects/personal-projects/hibernate_screenshot.png'
 
 #### Rumble Run - Character customiser with interface
 
-Internship project made during my bachelor years. I was put on a small team of developers creating a multiplayer mobile runner type game.  
-One of the key selling points was to have a custom character you could build to show off to your friends & foes. I took up the task of building this character customiser and the interface surrounding it.  
-I took on the task of designing the interface, because there wasn't a design for it yet and I had a clear idea of how to implement this interface together with programming the logic behind it.
-<br/> <br/>
+Internship project made during my bachelor years. I was put on a small team of developers creating a multiplayer mobile runner type game. One of the key selling points was to have a custom character you could build to show off to your friends & foes. I took up the task of building this character customiser and the interface surrounding it.  
+I took up the task of designing the interface, because there wasn't a design for it yet and I had a clear idea of how to implement this interface together with programming the logic behind it.
+The interface was developed using a grid-based layout with the categories to the side. I made a lot of builds during this process, handing it over to different people to try it out and tweak based on feedback. The interface is placed in world space with a slight angle, giving it a nice 3D look. In the end the graphics were added by the artist.  
+Below are some shots from the interface during development and a video of it in action.
+
+<div class="gallery" data-columns="3">
+	<img src="/images/projects/personal-projects/hibernate_ui_01.png">
+	<img src="/images/projects/personal-projects/hibernate_ui_02.png">
+	<img src="/images/projects/personal-projects/hibernate_ui_03.png">
+</div>
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:55.886%;"><iframe src="https://streamable.com/s/jcwar/mvmwew" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+<br/>
 
 The colour custimisation runs on a custom shader that was written for the game. The character's texture is rendered in realtime using a rendertexture, this way I could change colours on the fly.
 Before gameplay starts the texture is saved to an actual static texture. Armour customisation uses anchor points placed on the characters; this is where I parent the armour pieces to.  
@@ -36,7 +43,11 @@ Object pooling is used for all objects spawning over the 7 lanes the game has. T
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:49.921%;"><iframe src="https://streamable.com/s/ka05g/jiwlef" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
-The source can be found on git: [https://github.com/Rynji/Mountaineer](https://github.com/Rynji/Mountaineer/tree/master/Assets)
+I had a lot of fun making these 3D models and being able to interact with these creations in game.
+
+![](/images/projects/personal-projects/mountaineer_models.png)
+
+The source for the game can be found on git: [https://github.com/Rynji/Mountaineer](https://github.com/Rynji/Mountaineer/tree/master/Assets)
 
 ----
 
