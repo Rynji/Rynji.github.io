@@ -2,7 +2,7 @@
 title: 'Monster Rebellion'
 subtitle: '(2017) Location Based Mobile Game using GPS'
 date: 2019-12-23
-description: Mobile game project I worked on while working on my bachelor thesis. A mobile game using location coördinates with interaction to stimulate children to walk to school instead of being brought by vehicle.
+description: Mobile game project I worked on during my bachelor thesis. A mobile game using location coordinates with interaction to stimulate children to walk to school instead of being brought by vehicle.
 featured_image: '/images/projects/monster-rebellion/header_screenshot.png'
 ---
 
