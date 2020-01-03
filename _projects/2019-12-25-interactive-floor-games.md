@@ -2,7 +2,7 @@
 title: 'Interactive Floor Games'
 subtitle: 'Highlights from the development of the games I worked on'
 date: 2019-12-25
-description: Multiple games I developed have released on the Interactive Floor platform the past 2 years. These are some development highlights.
+description: Multiple games I developed have released on the Interactive Floor platform the past 2 years. These are some development highlights. Individual game pages accesible through this page.
 featured_image: '/images/projects/floor-games/allgamesbanner.png'
 ---
 
