@@ -1,5 +1,5 @@
 ---
-title: 'Personal Projects & Intern'
+title: 'Personal Projects & Internship'
 subtitle: '(2014-2016) Some smaller personal projects & an intership from my bachelor years'
 date: 2019-12-22
 description: 'Character customiser with interface, day/night cycle game and a spidergame using an on-the-fly generated mesh as a web.'
@@ -58,5 +58,9 @@ The player starts during the day with a goal of finding as much lantern oil as p
 Your goal is to escape during the night through a randomly placed exit; the light of your lantern being your only guidance.
 
 ![](/images/projects/personal-projects/nightfall.png)
+
+----
+
+[Back to projects]({{site.url}})
 
 
