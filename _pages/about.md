@@ -27,4 +27,5 @@ Skills listed are tools and environments I have worked with on multiple projects
 * Git & Github
 * Unity
 * Photoshop
+* 3ds Max
 * Scrum

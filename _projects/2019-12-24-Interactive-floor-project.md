@@ -3,104 +3,28 @@ title: 'Interactive Floor Platform'
 subtitle: 'From prototype to full grown product with over 100 units sold'
 date: 2019-12-24
 description: From graduation thesis on tracking in 3D space to prototype to a released product. The platform is used to apply embodied learning in a playful way using interactive games. I've developed its prototype and helped it grow to a fully developed product.
-featured_image: '/images/projects/floor-project/beweegkast.jpg'
+featured_image: '/images/projects/floor-project/floor_project_banner.jpg'
 ---
 
-![](/images/demo/demo-landscape.jpg)
+The [interactive floor platform](https://springlab.nl/beweegvloer/) is a platform developed at [Springlab](https://springlab.nl) to apply embodied learning for children of ages 2-4. 
 
-## Demo content
+In February 2017 I started my bachelor thesis[^1] research at Springlab. The interactive floor project was in its earliest stages; market research was being conducted but there wasn't a proof of concept yet. My goal was to find a suitable method of tracking players in a 3D space from a top down position which could be used to built a prototype with.
 
-This page is a demo that shows everything you can do inside portfolio and blog posts.
+I started out by exploring the OpenCV Computer Vision library in C++. I built some examples around colour based detection in C++ <sup>(p21-29 in my thesis[^1]).</sup> While the results were promising colour tracking wasn't feasible for the interactive floor since we didn't want players to wear specific marker based items and such. I did end up completing my thesis using colour detection because I wanted to spent time on porting the C++ to Unity and to explore some tracking algorithms. The end result of my thesis was contour detection of individual items on a colour filtered binary image working in Unity. 
 
-We've included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
+![](/images/projects/floor-project/colour_contour_detection.jpg)
 
-**Obviously,** we’ve styled up *all the basic* text formatting options [available in markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+After completing my bachelor I started building a prototype interactive floor for Springlab as a freelancer. I had access to a Microsoft Kinect camera and an OpenCV for Unity plugin.  
+At this point in time the interactive floor prototype was pretty much a two man project; I was building the technology and an interaction designer setup the first hardware prototype and designed a few basic interactive games I would develop for this prototype.
 
-You can create lists:
+The prototype can be seen in action in the video below (I'm the player).
+<iframe src="https://www.youtube.com/embed/dJ-woBDXpAQ" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+Below is a photo of the prototype we used to test with. We actually experimented with multiple beamers to combat shadows on the play area, but it made calibrating near impossible.
 
-* Simple bulleted lists
-* Like this one
-* Are cool
+![](/images/projects/floor-project/first_active_prototype.jpg)
 
-And:
+We tested this prototype with the interactive games multiple times at day-care(s) which proved succesful. The children were wildly engaged in the games and the supervisors liked the product.  
+During my freelance work, which was on and off spanning half a year, Springlab's social media presence attracted a big investor which meant the company was ready for the next stage. 
+I started a full time job as a game developer together with one other developer who would take care of the tracking department. I started the project working on the tracking code, but since I am more interested in gameplay programming I transitioned onto game development for this project. I laid the foundations for the setup of the entire application that is still running for more than 100 customers today; I also setup and manage the GitHub version control with pull requests, code reviews, logical commits and the like.
 
-1. Numbered lists
-2. Like this other one
-3. Are great too
-
-You can also add blockquotes, which are shown at a larger width to help break up the layout and draw attention to key parts of your content:
-
-> “Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.”
-
-The theme also supports markdown tables:
-
-| Item                 | Author        | Supports tables? | Price |
-|----------------------|---------------|------------------|-------|
-| Duet Jekyll Theme    | Jekyll Themes | Yes              | $49   |
-| Index Jekyll Theme   | Jekyll Themes | Yes              | $49   |
-| Journal Jekyll Theme | Jekyll Themes | Yes              | $49   |
-
-And footnotes[^1], which link to explanations[^2] at the bottom of the page[^3].
-
-[^1]: Beautiful modern, minimal theme design.
-[^2]: Powerful features to show off your work.
-[^3]: Maintained and supported by the theme developer.
-
-You can throw in some horizontal rules too:
-
----
-
-### Image galleries
-
-Here's a really neat custom feature we added – galleries:
-
-<div class="gallery" data-columns="3">
-	<img src="/images/demo/demo-portrait.jpg">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-square.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
-</div>
-
-Inspired by the Galleries feature from WordPress, we've made it easy to create grid layouts for your images. Just use a bit of simple HTML in your post to create a masonry grid image layout:
-
-```html
-<div class="gallery" data-columns="3">
-    <img src="/images/demo/demo-portrait.jpg">
-    <img src="/images/demo/demo-landscape.jpg">
-    <img src="/images/demo/demo-square.jpg">
-    <img src="/images/demo/demo-landscape-2.jpg">
-</div>
-```
-
-*See what we did there? Code and syntax highlighting is built-in too!*
-
-Change the number inside the 'columns' setting to create different types of gallery for all kinds of purposes. You can even click on each image to seamlessly enlarge it on the page.
-
----
-
-### Image carousels
-
-Here's another gallery with only one column, which creates a carousel slide-show instead.
-
-A nice little feature: the carousel only advances when it is in view, so your visitors won't scroll down to find it half way through your images.
-
-<div class="gallery" data-columns="1">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
-</div>
-
-### What about videos?
-
-Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
-
-<iframe src="https://player.vimeo.com/video/148003889" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-
----
-
-## Pretty cool, huh?
-
-We've packed this theme with powerful features to show off your work.
-
-Why not put them to use on your new portfolio?
-
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--large">Get This Theme</a>
+[^1]: [download thesis in pdf here (Dutch)](/documents/bachelor-thesis.pdf)
