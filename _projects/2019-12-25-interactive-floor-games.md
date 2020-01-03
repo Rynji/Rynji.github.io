@@ -20,25 +20,29 @@ I always work closely together with those involved (designers, artists, animator
 * Highlights: 2D with depth of field, scene setup & camera work; phase system.  
 <sub>[Read more...](/project/game-reusgame)</sub>
 
-<br/>
+----
+
 [![Kliederen met Knuffels](/images/projects/floor-games/game-banners/banner_knuffels_button.png)](/project/game-knuffelgame)
 <sub><sup>_(English: Stuffed Animals Mess)_</sup></sub> <!-- A game about actions & consequences.  -->  
 * Highlights: Paintspots particle system, configurable paths.  
 <sub>[Read more...](/project/game-knuffelgame)</sub>
 
-<br/>
+----
+
 [![Klunskabouters](/images/projects/floor-games/game-banners/banner_kabouters_button.png)](/project/game-tuinkabouters)
 <sub><sup>_(English: Clumsy Garden Gnomes)_</sup></sub> <!-- A game about cooperation and our first 3D game.  -->  
 * Highlights: 2D player detection logic on 3D game, level setup.  
 <sub>[Read more...](/project/game-tuinkabouters)</sub>
 
-<br/>
+----
+
 [![Blobbers](/images/projects/floor-games/game-banners/banner_blobbers_button.png)](/project/game-blobbers)
 <!-- _Blobbers_ is the first game I developed for the interactive floor platform; it's about free play & motorics.  -->
 * Highlights: Texture overlap detection, feedback shader.  
 <sub>[Read more...](/project/game-blobbers)</sub>
 
-<br/>
+----
+
 [![Vreemde Vogels](/images/projects/floor-games/game-banners/banner_vogels_button.png)](/project/game-vreemdevogels)
 <sub><sup>_(English: Unfamiliar Birds)_</sup></sub> <!-- Another linear story telling game based around recognizing animal types and the such.  -->  
 * Highlights: Modularity, magnifying glass effect.  
