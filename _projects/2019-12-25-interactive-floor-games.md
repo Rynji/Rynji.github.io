@@ -2,7 +2,7 @@
 title: 'Interactive Floor Games'
 subtitle: '(2017-2020) Highlights from the development of the games I worked on'
 date: 2019-12-25
-description: Multiple games I developed have released on the Interactive Floor platform the past 2 years. These are some development highlights. Individual game pages accesible through this page.
+description: Multiple games I developed have released on the Interactive Floor platform over the past 2 years. These are some development highlights. Individual game pages accesible through this page.
 featured_image: '/images/projects/floor-games/allgamesbanner.png'
 ---
 
@@ -17,35 +17,30 @@ I always work closely together with those involved (designers, artists, animator
 
 [![Reuzentranen](/images/projects/floor-games/game-banners/banner_reus_button.png)](/project/game-reusgame)
 <sub><sup>_(English: Giant's Tears)_</sup></sub> <!-- An interactive, linear story telling game.  -->  
-* Responsibilities: All coding and game development work done in Unity.  
 * Highlights: 2D with depth of field, scene setup & camera work; phase system.  
 <sub>[Read more...](/project/game-reusgame)</sub>
 
 <br/>
 [![Kliederen met Knuffels](/images/projects/floor-games/game-banners/banner_knuffels_button.png)](/project/game-knuffelgame)
 <sub><sup>_(English: Stuffed Animals Mess)_</sup></sub> <!-- A game about actions & consequences.  -->  
-* Responsibilities: All coding and game development work done in Unity.  
 * Highlights: Paintspots particle system, configurable paths.  
 <sub>[Read more...](/project/game-knuffelgame)</sub>
 
 <br/>
 [![Klunskabouters](/images/projects/floor-games/game-banners/banner_kabouters_button.png)](/project/game-tuinkabouters)
 <sub><sup>_(English: Clumsy Garden Gnomes)_</sup></sub> <!-- A game about cooperation and our first 3D game.  -->  
-* Responsibilities: About 95% of the codebase, building the game logic in Unity & setting up a level editing space for the designer.  
 * Highlights: 2D player detection logic on 3D game, level setup.  
 <sub>[Read more...](/project/game-tuinkabouters)</sub>
 
 <br/>
 [![Blobbers](/images/projects/floor-games/game-banners/banner_blobbers_button.png)](/project/game-blobbers)
 <!-- _Blobbers_ is the first game I developed for the interactive floor platform; it's about free play & motorics.  -->
-* Responsibilities: All of the codebase and game development work done in Unity.  
 * Highlights: Texture overlap detection, feedback shader.  
 <sub>[Read more...](/project/game-blobbers)</sub>
 
 <br/>
 [![Vreemde Vogels](/images/projects/floor-games/game-banners/banner_vogels_button.png)](/project/game-vreemdevogels)
 <sub><sup>_(English: Unfamiliar Birds)_</sup></sub> <!-- Another linear story telling game based around recognizing animal types and the such.  -->  
-* Responsibilities: All of the codebase and game development work done in Unity.  
 * Highlights: Modularity, magnifying glass effect.  
 <sub>[Read more...](/project/game-vreemdevogels)</sub>
 
