@@ -24,7 +24,7 @@ One thing I do like about the system is that I loaded all the armour pieces thro
 
 ![](/images/projects/personal-projects/rumble_run_xml.png)
 
-Besides a lot of programming lessens I learned a lot about user interfaces during this project as well. 
+Besides a lot of programming lessons, I learned a lot about user interfaces during this project as well. 
 
 ----
 
