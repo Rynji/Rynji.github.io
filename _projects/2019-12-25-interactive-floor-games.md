@@ -7,7 +7,7 @@ featured_image: '/images/projects/floor-games/allgamesbanner.png'
 ---
 
 I have made a page for each game with my personal highlights where I talk about the development and the implementation of game systems.
-All games are played on the [Interactive Floor Platform](/project/interactive-floor-project). All five games have released to over 100 customers.
+All games are played on the [Interactive Floor Platform](/project/interactive-floor-project). All five games have released to over 100 educational institutions.
 
 I always work closely together with those involved (designers, artists, animators), iterating on implementations to make sure the end result is up to everyone's standards. Games #1, #2 and #5 have been developed in collaboration with [Zwijsen](https://www.zwijsen.nl/lesmethoden/peuterpakket-bewegend-leren).
 
