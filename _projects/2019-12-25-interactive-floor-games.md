@@ -1,16 +1,14 @@
 ---
 title: 'Interactive Floor Games'
-subtitle: '(2017-2020) Highlights from the development of the games I worked on'
+subtitle: '(2017-2020) Highlights from the development of the interactive floor games I have worked on'
 date: 2019-12-25
-description: Multiple games I developed have released on the Interactive Floor platform over the past 2 years. These are some development highlights. Individual game pages accesible through this page.
+description: Showcase of games I worked on that have been released on the Interfactive Floor platform. Individual game pages accesible through this page.
 featured_image: '/images/projects/floor-games/allgamesbanner.png'
 ---
 
-Below is a list of the games I've worked on at [Springlab](https://springlab.nl).  
-I've made a page for each game with my personal highlights where I talk about the development and the implementation of game systems.
-All games are played on the [Interactive Floor Platform](/project/interactive-floor-project). Five games have released so far to over 100 customers.
+I have made a page for each game with my personal highlights where I talk about the development and the implementation of game systems.
+All games are played on the [Interactive Floor Platform](/project/interactive-floor-project). All five games have released to over 100 customers.
 
-Each game development project has one lead game designer and one game programmer. The game designer draws out the game using a screen flow; this screen flow is the base which the developers work from.  
 I always work closely together with those involved (designers, artists, animators), iterating on implementations to make sure the end result is up to everyone's standards. Games #1, #2 and #5 have been developed in collaboration with [Zwijsen](https://www.zwijsen.nl/lesmethoden/peuterpakket-bewegend-leren).
 
 ----
