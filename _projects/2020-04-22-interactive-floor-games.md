@@ -1,7 +1,7 @@
 ---
 title: 'Interactive Floor Games'
 subtitle: '(2017-2020) Highlights from the development of the interactive floor games I have worked on'
-date: 2019-12-25
+date: 2020-04-22
 description: Showcase of games I worked on that have been released on the Interfactive Floor platform. Individual game pages accesible through this page.
 featured_image: '/images/projects/floor-games/allgamesbanner.png'
 ---
