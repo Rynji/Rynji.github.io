@@ -7,7 +7,7 @@ featured_image: /images/headers/about.jpg
 
 ## Hi there! 
 
-I'm Timon Nap, 26 years old and from The Netherlands, Utrecht area. 
+I'm Timon Nap, 27 years old and from The Netherlands, Utrecht area. 
 
 My professional work for the past 2.5 years as a game programmer has been in developing serious games for a [custom interactive floor platform](https://springlab.nl/beweegvloer/) at [Springlab](https://springlab.nl). With a development team of 6-8 people we are working closely together during all stages of development. We're releasing multiple games per year for the interactive floor platform. 
 
