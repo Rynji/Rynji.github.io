@@ -31,7 +31,7 @@ Afterwards the players move onto the _climbing_ scene. Here they climb up into a
 Whenever the main character moves it is using a waypoint system I built. Waypoints are placed in the Unity editor. For each waypoint you can choose the animation you want to play (e.g. running, crawling).
 
 ![](/images/projects/floor-games/reusgame/reus_waypoint_system.jpg)
-<div style="width:100%;height:0px;position:relative;padding-bottom:56.211%;"><iframe src="https://streamable.com/s/6bkdb/vgeguf" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.211%;"><iframe src="https://player.vimeo.com/video/467666262" width="640" height="359" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 The waypoint system and scene setup with perspective and depth of field in action.
 
 {% include phase-system.md %}

@@ -9,7 +9,7 @@ exclude: true
 
 ### Blobbers
 _Blobbers_ is the first game I developed for the [interactive floor platform](/project/interactive-floor-project). The game is rather straightforward; While playing shape outlines will spawn on the floor, players must fill these by standing inside the outlines with their bodies.  
-<div style="width:100%;height:0px;position:relative;padding-bottom:44.257%;"><iframe src="https://streamable.com/s/1hre6/khdgsz" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+<div style="width:100%;height:0px;position:relative;padding-bottom:44.257%;"><iframe src="https://player.vimeo.com/video/467666139" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
 ----
 

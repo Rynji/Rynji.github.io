@@ -15,11 +15,10 @@ The goal of the game is for the players to create a chain (by holding hands or s
 
 The output of our player detection is a list of 2D polygon colliders, representing the player's blobs in top down view. These 2D colliders are aligned facing the Z-axis in Unity, which makes them incompatible with 3D space.
 Rewriting the detection to apply in 3D space wasn't possible at this stage and rotating the 3D gameworld 90 degrees facing the 2D camera would make for an interesting time creating levels; For this reason I've chosen to keep the interaction-logic seperate from the visual part of the game. 
+
 With this implementation I have a 2D plane where both player's colliders and the game's colliders are. Interaction happens on this plane, out of the player's view and is communicated to the 3D game world.
-
-The first prototype of this game was actually built with both 2D and 3D graphics. Based on user feedback (and an artist that REALLY wanted to make that 3D game ;-) ) we went with a 3D implementation. This prototype already had the 2D to 3D setup running which can be seen in action here.
-
-<div style="width:100%;height:0px;position:relative;padding-bottom:44.277%;"><iframe src="https://streamable.com/s/dwktk/ckjuwc" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+Below is a video of the detection in debug view and an indicator at the end of the tracked volume.
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.000%;"><iframe src="https://streamable.com/e/tiev3w" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 The detection input from the Intel Realsense can be seen on the 2D plane where all interaction happens. This is then communicated to the 3D game space which reacts accordingly.
 
 I have setup a grid on both the 2D plane and the gameworld for the designer to align the colliders and flower prefabs on. The levels were actually built using blocks to easily align to the grid with vertex snapping.
@@ -39,4 +38,6 @@ The code snippet below shows the core of the chain detection. It also works with
 ----
 
 [Back to the interactive floor games overview](/project/interactive-floor-games)
+
+
 

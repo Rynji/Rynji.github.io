@@ -32,8 +32,8 @@ contact_settings:
 
 social_settings:
   facebook_url: ''
-  twitter_url: 'https://twitter.com/Rynji'
-  instagram_url: 'https://www.instagram.com/timon.pixel/'
+  twitter_url:
+  instagram_url: 
   snapchat_url: ''
   youtube_url: ''
   google-plus_url: ''
@@ -48,7 +48,7 @@ social_settings:
   dribbble_url: ''
   behance_url: ''
   deviantart_url: ''
-  github_url: 'https://github.com/TimonSpringlab'
+  github_url: 'https://github.com/Rynji'
   reddit_url: ''
   flickr_url: 'https://www.flickr.com/photos/134438638@N07/'
   etsy_url: ''
