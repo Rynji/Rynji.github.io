@@ -16,7 +16,7 @@ Programming sparked my interest during my computer science bachelor which I comp
 
 During my bachelor years I have also studied in Trondheim, Norway for a semester in 2016; At the Norwegian University of Science and Technology. At the NTNU I worked on a VR project using Unreal Engine. I absolutely loved my time in Norway and ever since I try to regularly travel to interesting places. Some of the places I've been to are Ukraine and Kazakhstan; The header picture of me has actually been taken at Big Almaty Lake in Kazakhstan.
 
-My passion in the working field lies in working together with other professionals; Developing creative solutions to design problems, getting systems running and iterating on implementations to get that perfect feel to it in the end. I love it when a game project comes together. I have a strong passion for how something should look & feel in a game; Being right in the middle as a game programmer allows me to contribute significantly in all aspects that make a great game.
+My passion in the working field lies in working together with other professionals; Developing creative solutions to design problems, getting systems running and iterating on implementations to get that perfect feel to it in the end. I love it when a project comes together. I have a strong passion for the way something should look & feel; Being right in the middle as a programmer allows me to contribute significantly in all aspects that make a great application.
  
 
 ## Skills
