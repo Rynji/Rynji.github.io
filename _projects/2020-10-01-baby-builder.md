@@ -6,7 +6,7 @@ description: 'The Baby Builder is an interactive installation built in Unity/C# 
 featured_image: '/images/projects/baby-builder/bb-header-large.jpg'
 ---
 
-The Baby Builder is an interactive installation in which you can design your own child through genetic engineering. It is built using the Unity engine and designed for use on touch screens. I worked on the application from the prototyping phase onwards. I have now developed it into a fully fledged application that has been on display at several conventions(?). The Baby Builder has also been nominated for the Young Talent Award at the Dutch Design Week 2020.
+The Baby Builder is an interactive installation in which you can design your own child through genetic engineering. It is built using the Unity engine and designed for use on touch screens. I worked on the application from the prototyping phase onwards. I have now developed it into a fully fledged application that has been on display at several conventions. The Baby Builder has also been nominated for the Young Talent Award at the Dutch Design Week 2020.
 
 ![](/images/projects/baby-builder/bb-interaction.jpg)
 > *"Whatever your point of view may be, the Baby Builder challenges the audience to confront the ethical, societal and moral questions raised by the development of genetic engineering."[^1]* 
@@ -24,7 +24,7 @@ The result is a very flexible application that can be displayed on any kind of s
 
 ----
 
-The first iteration started out with a simple interactive prototype. Based on the test results of this prototype a new design was created and delivered to me(?). You can see some frame elements carrying over in the screenshots of the first and second prototype below. The first prototype was pretty limited so most elements were created from scratch while implementing the final design.
+The first iteration started out with a simple interactive prototype. Based on the test results of this prototype a new design was created and delivered to me. You can see some frame elements carrying over in the screenshots of the first and second prototype below. The first prototype was pretty limited so most elements were created from scratch while implementing the final design.
 
 <div class="gallery" data-columns="2">
     <img src="/images/projects/baby-builder/unity/bb-initial-prototype.PNG">
@@ -41,7 +41,7 @@ Given the design contains many recurring elements; I made sure to develop all fr
 
 The Baby Builder gives you a score at the end based on how many modifications you applied. This score is calculated from each frame using *Scoring Modules*. Scoring modules are currently configured by hand and manually plugged into the score calculator. In case of further development I would rewrite this to a dynamic system that passes through all frames and calculates scores based on the contents of the frame automatically.
 
-One of the requirements for the Baby Builder was saving the data produced by the application(?). Given the limited scope of the project I solved this by locally saving the data. All data produced from the application is saved to a single comma seperated file (.csv). The file creates a backup after every session.
+One of the requirements for the Baby Builder was saving the data produced by the application. Given the limited scope of the project I solved this by locally saving the data. All data produced from the application is saved to a single comma seperated file (.csv). The file creates a backup after every session.
 
 ----
 
