@@ -35,7 +35,7 @@ The first iteration started out with a simple interactive prototype. After proto
 
 Given the design contains many recurring elements; I made sure to develop all frames modularly based on prefabs. Updating existing frames or adding new ones is just a matter of using/editing the building blocks already created.
 
-![](/images/projects/baby-builder/unity/prefabs-collage.PNG)
+![](/images/projects/baby-builder/unity/prefabs-collage.png)
 
 ----
 
