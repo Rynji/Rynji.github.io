@@ -1,10 +1,29 @@
 ---
 title: 'Baby Builder'
-subtitle: '(2020) A playful exploration of genetic engineering'
-date: 2020-10-01
+subtitle: '(2020-2021) A playful exploration of genetic engineering'
+date: 2021-02-01
 description: 'The Baby Builder is an interactive installation built in Unity/C# in which you can design your own child through genetic engineering. The Baby Builder is a self-initiated project by Bertrand Burgers; it challenges the audience to confront the ethical, societal and moral questions raised by the development of genetic engineering.'
 featured_image: '/images/projects/baby-builder/bb-header-large.jpg'
 ---
+
+#### 2021 Update
+
+It is now possible to [book](https://static1.squarespace.com/static/5f0dae9666df150ca89f6b1b/t/5f9e9af0e9a0e4631a01f89c/1604229878964/digital-form-baby-builder.pdf) the Baby Builder. The installation has proven to be a perfect match for places (e.g. festivals, exhibitions, museums, schools) on the cutting edge of technology, science and art. 
+
+To accomodate the exposition of the installation we have updated it with some quality of life changes. 
+One of the new features is an automated reset that occurs if there hasn't been user-input for more than 90 seconds. This has been implemented to allow the installation to keep running on its own, even if a user abandons the installation halfway through. Among other things we have also simplified the survey at the end.
+
+
+<div class="gallery" data-columns="6">
+    <img src="/images/projects/baby-builder/unity/ui_afkscreen.png" height="25%">
+    <img src="/images/projects/baby-builder/unity/ui_survey_new.png" height="25%">
+</div>
+
+We also implemented an option for the user to opt out of any data being saved. The data we save from the session is already pretty limited, but choosing to opt-out doesn't save any session data at all. All it does is add an entry that the user opted out; this way we can still confirm that the user completed an entire session of the Baby Builder.
+
+----
+
+#### The Project
 
 The Baby Builder is an interactive installation in which you can design your own child through genetic engineering. It is built using the Unity engine and designed for use on touch screens. I worked on the application from the prototyping phase onwards. I have now developed it into a full-fledged application that has been on display at several exhibitions and festivals. The Baby Builder has also been nominated for the Young Talent Award at the Dutch Design Week 2020.
 
@@ -41,7 +60,9 @@ Given the design contains many recurring elements; I made sure to develop all fr
 
 The Baby Builder gives you a score at the end based on how many modifications you applied. This score is calculated from each frame using *Scoring Modules*. Scoring modules are currently configured by hand and manually plugged into the score calculator. In case of further development I would rewrite this to a dynamic system that passes through all frames and calculates scores based on the contents of the frame automatically.
 
-One of the requirements for the Baby Builder was to store the data produced by the application. Given the limited scope of the project I solved this by locally saving the data. All data produced from the application is saved to a single comma seperated file (.csv). The file creates a backup after every session.
+One of the requirements for the Baby Builder was to store the data produced by the application. Given the limited scope of the project I solved this by locally saving the data. All data produced from the application is saved to a single comma seperated file (.csv). The file creates a backup after every session. An example of the data saved is shown below.
+
+![](/images/projects/baby-builder/bb_data.png)
 
 ----
 
