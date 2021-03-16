@@ -1,7 +1,7 @@
 ---
 title: 'Baby Builder'
 subtitle: '(2020-2021) A playful exploration of genetic engineering'
-date: 2021-02-01
+date: 2021-08-03
 description: 'The Baby Builder is an interactive installation built in Unity/C# in which you can design your own child through genetic engineering. The Baby Builder is a self-initiated project by Bertrand Burgers; it challenges the audience to confront the ethical, societal and moral questions raised by the development of genetic engineering.'
 featured_image: '/images/projects/baby-builder/bb-header-large.jpg'
 ---
