@@ -18,7 +18,7 @@ Below are some shots from the interface during development and a video of it in 
 	<img src="/images/projects/personal-projects/hibernate_ui_03.png">
 </div>
 
-<div style="width:100%;height:0px;position:relative;padding-bottom:55.886%;"><iframe src="https://player.vimeo.com/video/467666138" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+<iframe src="https://player.vimeo.com/video/467666138" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 <br/>
 
 The colour custimisation runs on a custom shader that was written for the game. The character's texture is rendered in realtime using a rendertexture, this way I could change colours on the fly.
@@ -39,7 +39,7 @@ Besides a lot of programming lessons, I learned a lot about user interface desig
 Mountainer is a game I made back in 2015 where I wanted to develop a fully functional game from scratch that I could play on mobile. It is an endless runner type of game where you keep dodging obstacles for as long as possible.  
 Object pooling is used for all objects spawning over the 7 lanes the game has. The landscape is endlessly scrolled. I did all the modelling work on this game as well using 3ds Max. It was a fun little project and interesting to make a game from scratch and play it on my own phone. <br/><br/>
 
-<div style="width:100%;height:0px;position:relative;padding-bottom:49.921%;"><iframe src="https://player.vimeo.com/video/467666236" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+<iframe src="https://player.vimeo.com/video/467666236" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
 I had a lot of fun making these 3D models and being able to interact with these creations in game.
 
