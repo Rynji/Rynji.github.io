@@ -18,7 +18,9 @@ Rewriting the detection to apply in 3D space wasn't possible at this stage and r
 
 With this implementation I have a 2D plane where both player's colliders and the game's colliders are. Interaction happens on this plane, out of the player's view and is communicated to the 3D game world.
 Below is a video of the detection in debug view and an indicator at the end of the tracked volume.
-<div style="width:100%;height:0px;position:relative;padding-bottom:56.000%;"><iframe src="https://streamable.com/e/tiev3w" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+
+<iframe src="https://player.vimeo.com/video/468065710" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
 The detection input from the Intel Realsense can be seen on the 2D plane where all interaction happens. This is then communicated to the 3D game space which reacts accordingly.
 
 I have setup a grid on both the 2D plane and the gameworld for the designer to align the colliders and flower prefabs on. The levels were actually built using blocks to easily align to the grid with vertex snapping.
