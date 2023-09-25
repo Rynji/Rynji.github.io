@@ -15,7 +15,9 @@ For the messing about with paint phase I have worked with particles; I have modi
 Every time a stuffed animal moves a certain amount it sends a call to the ParticlePool with its location and an index used for colour. The ParticlePool then takes the next particle from the pool and places it at the correct location with the correct colour. After all 1024 particles have been used the system loops and starts at the first particle again.
 
 Below is a video of the system in action, the ball is used to simulate a single player on the [interactive floor platform](/project/interactive-floor-project).
-<div style="width:100%;height:0px;position:relative;padding-bottom:56.000%;"><iframe src="https://player.vimeo.com/video/467666213" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+
+<iframe src="https://player.vimeo.com/video/467666213" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
 Below is a combined snippet of the core of the particles handling.
 <script src="https://gist.github.com/Rynji/4ac674e509a2676cf9588bf4f81a9044.js" type="text/javascript"></script>
 
