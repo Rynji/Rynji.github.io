@@ -14,7 +14,9 @@ Building with the phase system and a main mechanic based around re-using the sam
 
 The players start out in a garden, chill a bit and explore after which a little bird falls from the sky. The first task for the players is to calm this bird.  
 The mechanic is designed around approaching the bird slowly. If the players approach the bird too quickly it will scower away in fear. The bird has three invisible circles around itself. The initial design had four circles but the playable area was too small for such precise detection so we went with three. When a player hits a circle the time this circle was hit is registered, when the next circle is hit as well. These hit times are used to check how fast you are approaching. If you slow enough you are allowed to trigger the next circle otherwise the bird wil fly away!
-<div style="width:100%;height:0px;position:relative;padding-bottom:55.102%;"><iframe src="https://player.vimeo.com/video/467666303" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+
+<iframe src="https://player.vimeo.com/video/467666303" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
 Video showing the mechanic (with debug circles active) in action. The tomato is used in-editor to simulate a player on the floor. Code is shown below.
 <script src="https://gist.github.com/Rynji/6a3b6c37eb9ac84e0c6065a75000e350.js" type="text/javascript"></script>
 
