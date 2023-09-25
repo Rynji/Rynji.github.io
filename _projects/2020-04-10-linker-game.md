@@ -54,11 +54,11 @@ As for scalability I would say the project is of such a size right now that it i
 <br />
 <br />
 
-<div style="width:100%;height:0px;position:relative;padding-bottom:56.000%;"><iframe src="https://streamable.com/e/118a5x" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
-<br />
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.211%;"><iframe src="https://player.vimeo.com/video/857511533" width="640" height="359" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+<br /> 
 
 As for performance; the board fill feels a bit slower on an older Android device (Nexus 5) so that code would be a target for optimisation for example.
-The games look & file is easily editable through the level ScriptableObject and Tile prefabs. Each level has its own properties including which tiles to use. I have displayed the flexibility of this in my levels as well. The first level only has wooden shoes, the second only tulips and the last level has all the Dutch-themed things combined. 
+The games look and feel is easily editable through the level ScriptableObject and Tile prefabs. Each level has its own properties including which tiles to use. I have displayed the flexibility of this in my levels as well. The first level only has wooden shoes, the second only tulips and the last level has all the Dutch-themed things combined. 
 
 <!-- ScriptableObjects IMAGE -->
 
