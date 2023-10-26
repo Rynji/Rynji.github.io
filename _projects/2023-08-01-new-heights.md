@@ -6,9 +6,12 @@ description: 'At Wikkl I was a gameplay and UI developer on New Heights which is
 featured_image: '/images/projects/new-heights/nh-header-large.jpg'
 ---
 
-During my time at Wikkl we developed the game [New Heights](/project/new-heights). The game started out as a hobby project from one of the founders but we decided to pick it up and develop a full game out of it. 
+During my time at Wikkl we developed the game [New Heights](https://store.steampowered.com/app/2179440/New_Heights_Realistic_Climbing_and_Bouldering/) released in Early Acces on Steam. The game started out as a hobby project from one of the founders but we decided to pick it up as a studio and develop a fully fledged game out of it. 
 <br/> <br/>
-I worked on several elements of the game like checkpoints, implementing climbing runs and more; But my main focus was the user interface and the flow of getting into the gameplay. I also developed the tutorial level for the game where I did my own photoscanning turning photos into PBR materials.
+I worked on several elements of the game like programming checkpoints, implementing timed climbing runs and more; But my main focus was the user interface and the flow of getting into the gameplay; Both designing and programming the UI with localisation support (10 languages including Chinese). I also developed the tutorial level for the game where I did my own photoscanning turning photos into PBR materials.
+
+![](/images/projects/new-heights/ui/prototype-ui.gif)
+*My main focus was creating the user interface including full localisation support.*
 
 ----
 
@@ -42,7 +45,7 @@ Later on we also added a fast-travel menu to instantly travel to any location or
 
 ![](/images/projects/new-heights/ui/image2.png)
 
-If given more time and art resources I would've made the onboarding of new players more interesting by adding a proper introduction to the game. I would've also made the visual style of the UI more like actual climbing guides with a more paper look. But given our limited resources we settled on a simpler modern/clean visual design.
+If given more time and art resources I would've made the onboarding of new players more interesting by adding a proper introduction to the game. I would've also made the visual style of the UI more like actual climbing guides with a more paper-like look. But given our limited resources we settled on a simpler modern/clean visual design.
 
 ----
 
