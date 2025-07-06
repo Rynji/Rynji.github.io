@@ -12,8 +12,8 @@ menu_settings:
       url: '/'
     - title: 'About & Skills'
       url: '/about'
-    - title: 'Blog'
-      url: '/blog'
+    # - title: 'Blog'
+    #   url: '/blog'
     - title: 'Contact'
       url: '/contact'
 

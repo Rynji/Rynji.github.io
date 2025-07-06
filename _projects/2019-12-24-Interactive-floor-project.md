@@ -10,7 +10,7 @@ The [interactive floor platform](https://springlab.nl/beweegvloer/) is a platfor
 
 In February 2017 I started my bachelor thesis[^1] research at Springlab. The interactive floor project was in its earliest stages; market research was being conducted but there wasn't a proof of concept yet. My goal was to find a suitable method of tracking players in a 3D space from a top down position which could be used to build a prototype with.
 
-I started out by exploring the OpenCV Computer Vision library in C++. I built some examples around colour based detection in C++ <sup>(p21-29 in my thesis[^1]).</sup> While the results were promising, colour tracking wasn't feasible for the interactive floor since we didn't want players to wear specific marker based items and such. I did end up completing my thesis using colour detection because I wanted to spent time on porting the C++ to Unity and to explore some tracking algorithms. The end result of my thesis was contour detection of individual items on a colour filtered binary image working in Unity. 
+I started out by exploring the OpenCV Computer Vision library in C++. I built some examples around colour based detection in C++ While the results were promising, colour tracking wasn't feasible for the interactive floor since we didn't want players to wear specific marker based items and such. I did end up completing my thesis using colour detection because I wanted to spent time on porting the C++ to Unity and to explore some tracking algorithms. The end result of my thesis was contour detection of individual items on a colour filtered binary image working in Unity. 
 
 ![](/images/projects/floor-project/colour_contour_detection.jpg)
 
@@ -26,5 +26,3 @@ We tested this prototype with the interactive games on multiple occasions at day
 I started a full time job as a game developer together with one other developer who would take care of the tracking department. I started the project working on the tracking code, but since I am more interested in gameplay programming I transitioned onto game development. I laid the foundations for the setup of the entire application that is still running at more than 100 locations today; I also setup and manage the GitHub version control with pull requests, code reviews, logical commits and the like.
 
 <iframe src="https://www.youtube.com/embed/i9G8apHfXP0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-[^1]: [download thesis in pdf here (Dutch)](/documents/bachelor-thesis.pdf)

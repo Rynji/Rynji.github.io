@@ -16,10 +16,8 @@ Users of the NFT App can connect their blockchain wallets and generate videos of
 Most of my work consisted of creating the workflow of loading and rendering the 3D scenes in BabylonJS. I devised a workflow in Blender to setup the scenes which were then imported in the web app using .gltf format.
 I also created a big portion of the apps pages using Angular and Ionic.
 
-[New Heights Leaderboard Image (leaderboards not yet live)]
-
 A [New Heights](https://store.steampowered.com/app/2179440/New_Heights_Realistic_Climbing_and_Bouldering/) related project I have also worked on was a website leaderboard page for the game. This page allows everyone to see the leaderboards of New Heights without having to launch the game or even be at a computer.
-The leaderboards page was made using AngularJS and Tailwind CSS.
+The leaderboards page was made using AngularJS and Tailwind CSS and it can be viewed [here](https://newheightsgame.com/leaderboards/-/-/-)
 
 <img src="https://wikkl.me/nl/assets/projects/anna-app/anna-app.webp"/>
 

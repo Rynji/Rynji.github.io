@@ -7,29 +7,33 @@ featured_image: /images/headers/about.jpg
 
 ## Hi there! 
 
-I'm Timon Nap, 30 years old and from The Netherlands, Utrecht area. 
+I’m Timon Nap — a 32-year-old Unity/C# developer based in the Utrecht area (NL), with over 7 years of experience in building interactive 3D applications, serious games, and simulation-driven tools.
 
-My professional work has consisted mostly of working as a game programmer. I have worked on two entertainment games: [New Heights](/project/new-heights) & [Infinity Skies](/project/infinity-skies) both at [Wikkl](https://www.wikkl.me) and one big serious game project which is the [custom interactive floor platform](/project/interactive-floor-project) at [Springlab](https://springlab.nl). These projects have been developed in small teams (5-20 people) and besides game programming I have done a lot of UI implementation/design and some level design.
+Most of my work revolves around gameplay systems, UI implementation, and making prototypes production-ready. I’ve worked on projects ranging from entertainment games like [New Heights](/project/new-heights) and [Infinity Skies](/project/infinity-skies), to serious applications like [Springlab’s interactive floor platform](/project/interactive-floor-project) and various [Training Tools](/project/innovam) for the automotive industry.
 
-Gaming has been my #1 interest since a young age; I remember back during the PSone days I kept judging games' graphics by how good looking the trees were. My first development work started when I got into texture and modeling mods. At the age of 14 I spent countless hours modelling in 3ds max.
-Programming sparked my interest during my computer science bachelor which I completed at the Amsterdam University of Applied Sciences in 2017.
+I enjoy building clean, modular systems that are flexible enough to scale — especially when working with real-world constraints and existing codebases. My background in computer science (BSc AUAS, 2017) and my time abroad in Norway (NTNU, 2016) gave me a solid foundation in both technical and creative collaboration.
 
-During my bachelor years I have also studied in Trondheim, Norway for a semester in 2016; At the Norwegian University of Science and Technology. At the NTNU I worked on a VR project using Unreal Engine. I absolutely loved my time in Norway and ever since I try to regularly travel to interesting places. Some of the places I've been to are Ukraine (2018), Kazakhstan and Armenia.
-
-I'm also an avid weightlifter, which has become a big hobby and drives me to improve myself every single day.
+Outside of work, I’m into weightlifting, I occassionaly take out my bicycle, and I enjoy tinkering with tech — including working on my own Yaris GRMN, which I maintain and upgrade for both fun and function. I also enjoy traveling, especially to lesser-known destinations which have included Armenia (2023), Kazakhstan (2019), and Ukraine (2018).
  
 
-## Skills
+## Skills & Tools
 
-Skills listed are tools and environments I have worked with on multiple projects.
+[Curriculum Vitae](/documents/cv-timon-public.pdf)
 
-Skill | Experience | Familiarity (max 5⭐)
---- | --- | ---
-C# | 5+ years | ⭐⭐⭐⭐
-Unity Engine | 5+ years | ⭐⭐⭐⭐⭐
-AngularJS | 1-2 years | ⭐⭐⭐
-BabylonJS | 1-2 years | ⭐⭐⭐
-Git | 5+ years | ⭐⭐⭐⭐
-Scrum | 5+ years | ⭐⭐⭐⭐
-Photoshop | 5+ years | ⭐⭐⭐⭐
-Blender | 2 years | ⭐⭐⭐
+
+**Programming & Game Development**  
+C#, Unity (URP & Built-in), Netcode for GameObjects (NGO), Unity Localization, DOTween, ScriptableObject architecture, modular interaction systems, custom editor tools
+
+**UI & Visual Design**  
+Unity uGUI, responsive in-game UI systems, localization workflows, Photoshop, Blender (basic), photogrammetry & PBR texturing (Materialize)
+
+**AR/VR & Simulation Tools**  
+AR Foundation, Oculus Quest development (Unity), animation-driven interaction systems, scenario-based training flows, light simulation logic (procedural / state-driven)
+
+**Web & Hybrid Development**  
+AngularJS (legacy), Ionic, BabylonJS, Tailwind CSS, HTML/CSS
+
+**Workflow & Collaboration**  
+Git, GitHub, Trello, version control best practices, feature branching, Agile & Scrum (small to mid-sized teams), CI basics
+
+
