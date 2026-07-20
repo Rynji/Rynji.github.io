@@ -6,9 +6,9 @@ description: 'At Wikkl I was a gameplay and UI developer on New Heights which is
 featured_image: '/images/projects/new-heights/nh-header-large.jpg'
 ---
 
-During my time at Wikkl we developed the game [New Heights](https://store.steampowered.com/app/2179440/New_Heights_Realistic_Climbing_and_Bouldering/) released in Early Acces on Steam. The game started out as a hobby project from one of the founders but we decided to pick it up as a studio and develop a fully fledged game out of it. 
+During my time at Wikkl we developed the game [New Heights](https://store.steampowered.com/app/2179440/New_Heights_Realistic_Climbing_and_Bouldering/) released in Early Access on Steam. The game started out as a hobby project from one of the founders but we decided to pick it up as a studio and develop a fully fledged game out of it. 
 <br/>
-I worked on several elements of the game like programming checkpoints, implementing timed climbing runs and more; But my main focus was the user interface and the flow of getting into the gameplay; Both designing and programming the UI with localisation support (10 languages including Chinese). I also developed the tutorial level for the game where I did my own photoscanning turning photos into PBR materials.
+I worked on several elements of the game, like programming checkpoints and implementing timed climbing runs. My main focus, however, was the user interface and the flow of getting into the gameplay: designing and programming the UI with localisation support (10 languages including Chinese). I also developed the tutorial level for the game where I did my own photoscanning turning photos into PBR materials.
 
 ![](/images/projects/new-heights/ui/nh_localisation_gif.gif)
 

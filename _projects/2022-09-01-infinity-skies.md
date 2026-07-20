@@ -13,8 +13,8 @@ I got involved in implementing the entire user interface mainly because I love c
 ---
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.211%;"><iframe src="https://player.vimeo.com/video/857501968" width="640" height="359" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
-The games build mode UI in action. Build mode is where players would build castles that other players could visit.
-Build mode is entirely built around a grid-based system. The basic grid building system was already functional when I joined but we worked on many extentions afterwards. Some of them which I worked on are: Doors, windows, wall-mountable objects and multi-layer buildables like stairs.
+The game's build mode UI in action. Build mode is where players would build castles that other players could visit.
+Build mode is entirely built around a grid-based system. The basic grid building system was already functional when I joined but we worked on many extensions afterwards. Some of them which I worked on are: Doors, windows, wall-mountable objects and multi-layer buildables like stairs.
 
 ----
 

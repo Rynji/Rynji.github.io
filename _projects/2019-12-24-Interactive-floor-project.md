@@ -10,7 +10,7 @@ The [interactive floor platform](https://springlab.nl/beweegvloer/) is a platfor
 
 In February 2017 I started my bachelor thesis[^1] research at Springlab. The interactive floor project was in its earliest stages; market research was being conducted but there wasn't a proof of concept yet. My goal was to find a suitable method of tracking players in a 3D space from a top down position which could be used to build a prototype with.
 
-I started out by exploring the OpenCV Computer Vision library in C++. I built some examples around colour based detection in C++ While the results were promising, colour tracking wasn't feasible for the interactive floor since we didn't want players to wear specific marker based items and such. I did end up completing my thesis using colour detection because I wanted to spent time on porting the C++ to Unity and to explore some tracking algorithms. The end result of my thesis was contour detection of individual items on a colour filtered binary image working in Unity. 
+I started out by exploring the OpenCV Computer Vision library in C++. I built some examples around colour based detection in C++. While the results were promising, colour tracking wasn't feasible for the interactive floor since we didn't want players to wear specific marker based items and such. I did end up completing my thesis using colour detection because I wanted to spend time on porting the C++ to Unity and to explore some tracking algorithms. The end result of my thesis was contour detection of individual items on a colour filtered binary image working in Unity. 
 
 ![](/images/projects/floor-project/colour_contour_detection.jpg)
 
