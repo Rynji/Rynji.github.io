@@ -3,6 +3,10 @@ site: Timon's Portfolio
 url: "https://www.timonnap.com"
 baseurl:
 
+# Used to compute the age shown on the about page (day omitted on purpose)
+birth_year: 1993
+birth_month: 3
+
 collections:
   pages:
     output: true

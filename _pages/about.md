@@ -5,9 +5,12 @@ description: A little bit of text about who I am and what I do and a summary of 
 featured_image: /images/headers/about.jpg
 ---
 
+{% assign age = site.time | date: '%Y' | minus: site.birth_year %}
+{% assign current_month = site.time | date: '%-m' | plus: 0 %}
+{% if current_month < site.birth_month %}{% assign age = age | minus: 1 %}{% endif %}
 ## Hi there! 
 
-I’m Timon Nap — a 32-year-old Unity/C# developer based in the Utrecht area (NL), with over 7 years of experience in building interactive 3D applications, serious games, and simulation-driven tools.
+I’m Timon Nap — a {{ age }}-year-old Unity/C# developer based in the Utrecht area (NL), with over 7 years of experience in building interactive 3D applications, serious games, and simulation-driven tools.
 
 Most of my work revolves around gameplay systems, UI implementation, and making prototypes production-ready. I’ve worked on projects ranging from entertainment games like [New Heights](/project/new-heights) and [Infinity Skies](/project/infinity-skies), to serious applications like [Springlab’s interactive floor platform](/project/interactive-floor-project) and various [Training Tools](/project/innovam) for the automotive industry.
 
