@@ -10,13 +10,13 @@ featured_image: /images/headers/about.jpg
 {% if current_month < site.birth_month %}{% assign age = age | minus: 1 %}{% endif %}
 ## Hi there! 
 
-I’m Timon Nap — a {{ age }}-year-old Unity/C# developer based in the Utrecht area (NL), with over 7 years of experience building interactive 3D applications, serious games, and simulation-driven tools.
+I’m Timon Nap; a {{ age }}-year-old Unity/C# developer based in the Utrecht area (NL), with over 7 years of experience building interactive 3D applications, serious games, and simulation-driven tools.
 
-My work centers on gameplay systems, UI implementation, and making prototypes production-ready — from entertainment games like [New Heights](/project/new-heights) to AR/VR [training tools](/project/innovam) for the automotive industry. I enjoy building clean, modular systems that scale, especially within real-world constraints and existing codebases (BSc Computer Science, AUAS 2017).
+My work centers on gameplay systems, UI implementation, and making prototypes production-ready; from entertainment games like [New Heights](/project/new-heights) to AR/VR [training tools](/project/innovam) for the automotive industry. I enjoy building clean, modular systems that scale, especially within real-world constraints and existing codebases (BSc Computer Science, AUAS 2017).
 
 These days, agentic AI tooling is a core part of how I work: I direct AI coding agents to move faster on implementation while keeping architecture, review, and quality firmly in my own hands.
 
-Outside of work I’m into weightlifting, cycling, and tinkering with tech — including my own Yaris GRMN, which I maintain and upgrade for fun and function. I also travel to lesser-known destinations: Armenia (2023), Kazakhstan (2019), and Ukraine (2018).
+Outside of work I’m into weightlifting, regular cycling and walking, and tinkering with tech, including my own Yaris GRMN, which I maintain and upgrade for fun and function. I also travel to lesser-known destinations: Moldova (2025), Armenia (2023), Kazakhstan (2019), and Ukraine (2018).
  
 
 ## Skills & Tools
