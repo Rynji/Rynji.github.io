@@ -1,4 +1,5 @@
 ---
+published: false
 title: 'Home Photography'
 date: 2020-07-01
 description: Taking photos is a hobby of mine and recently I have upgraded to a dedicated camera; The Sony A6000. This post contains a few of my favorite photos I have taken around my home area.

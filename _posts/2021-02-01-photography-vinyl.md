@@ -1,4 +1,5 @@
 ---
+published: false
 title: 'Vinyl Photography'
 date: 2021-02-01
 description: 2020-2021 - Post containing some of my favorite (looking) records from my record collection I recently started.
