@@ -77,8 +77,8 @@ color_settings:
 # Dark theme counterparts, same semantics as color_settings.
 # text_dark = primary text, text_light = subtlest text.
 dark_color_settings:
-  background_color: '#171B21'
-  background_alt_color: '#10141A'
+  background_color: '#1D242E'
+  background_alt_color: '#0C1015'
   text_dark_color: '#E6E9ED'
   text_medium_color: '#A3AEB8'
   text_light_color: '#5F6A75'
