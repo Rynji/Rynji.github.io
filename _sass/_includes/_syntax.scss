@@ -107,3 +107,10 @@ html[data-theme="dark"] {
 	.highlight .sr { color: #6699CC } /* String.Regex */
 	.highlight .ss { color: #A5C261 } /* String.Symbol */
 }
+
+// GitHub gist embeds bring their own light token colors - keep their
+// canvas light in dark mode instead of half-theming them.
+html[data-theme="dark"] .gist .highlight {
+	background: #ffffff;
+	color: #24292e;
+}
