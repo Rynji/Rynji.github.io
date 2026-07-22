@@ -18,6 +18,9 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
+	<!-- Apply saved/system theme before styles load to avoid a flash -->
+	<script>(function(){try{var t=localStorage.getItem('theme');if(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches){t='dark'}if(t==='dark'){document.documentElement.setAttribute('data-theme','dark')}}catch(e){}})();</script>
+
 	<!-- Page Info -->
 	<link rel="shortcut icon" href="{{ site.data.settings.basic_settings.favicon_image | relative_url }}">
 	<title>{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}</title>
@@ -94,6 +97,22 @@
 	<!-- Javascript Assets -->
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 	<script src="{{ '/js/personal-min.js' | relative_url }}"></script>
+
+	<!-- Theme toggle -->
+	<script>
+	(function(){
+		var root = document.documentElement;
+		var buttons = document.querySelectorAll('.js-theme-toggle');
+		for (var i = 0; i < buttons.length; i++) {
+			buttons[i].addEventListener('click', function(){
+				var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+				if (next === 'dark') { root.setAttribute('data-theme', 'dark'); }
+				else { root.removeAttribute('data-theme'); }
+				try { localStorage.setItem('theme', next); } catch(e) {}
+			});
+		}
+	})();
+	</script>
 
 	{% if site.data.settings.advanced_settings.footer_js %}
 	<!-- Extra Footer JS Code -->
