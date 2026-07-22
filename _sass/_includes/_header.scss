@@ -190,6 +190,7 @@
 
 	@include mq(tabletl) {
 		display: inline-block;
+		vertical-align: middle;
 		margin-left: 20px;
 
 		&:first-child {
