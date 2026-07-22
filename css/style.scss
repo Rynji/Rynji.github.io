@@ -21,6 +21,8 @@
 // because Sass color functions can't operate on var() at runtime.
 
 :root {
+	color-scheme: light;
+
 	--background-color: {{ site.data.settings.color_settings.background_color }};
 	--background-alt-color: {{ site.data.settings.color_settings.background_alt_color }};
 	--border-color: {{ site.data.settings.color_settings.border_color }};
@@ -37,6 +39,27 @@
 	--hero-text-color: {{ site.data.settings.color_settings.hero_text_color }};
 
 	--error-color: {{ site.data.settings.color_settings.error_color }};
+}
+
+html[data-theme="dark"] {
+	color-scheme: dark;
+
+	--background-color: {{ site.data.settings.dark_color_settings.background_color }};
+	--background-alt-color: {{ site.data.settings.dark_color_settings.background_alt_color }};
+	--border-color: {{ site.data.settings.dark_color_settings.border_color }};
+
+	--text-dark-color: {{ site.data.settings.dark_color_settings.text_dark_color }};
+	--text-medium-color: {{ site.data.settings.dark_color_settings.text_medium_color }};
+	--text-light-color: {{ site.data.settings.dark_color_settings.text_light_color }};
+	--text-lighter-color: {{ site.data.settings.dark_color_settings.text_lighter_color }};
+
+	--accent-color: {{ site.data.settings.dark_color_settings.accent_color }};
+	--accent-hover-color: {{ site.data.settings.dark_color_settings.accent_hover_color }};
+
+	--hero-background-color: {{ site.data.settings.dark_color_settings.hero_background_color }};
+	--hero-text-color: {{ site.data.settings.dark_color_settings.hero_text_color }};
+
+	--error-color: {{ site.data.settings.dark_color_settings.error_color }};
 }
 
 $background-color: var(--background-color);

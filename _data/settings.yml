@@ -74,6 +74,22 @@ color_settings:
   hero_text_color: '#ffffff'
   error_color: '#D64541'
 
+# Dark theme counterparts, same semantics as color_settings.
+# text_dark = primary text, text_light = subtlest text.
+dark_color_settings:
+  background_color: '#171B21'
+  background_alt_color: '#10141A'
+  text_dark_color: '#E6E9ED'
+  text_medium_color: '#A3AEB8'
+  text_light_color: '#5F6A75'
+  text_lighter_color: '#7D8894'   # placeholders: dimmer, not lighter, on dark
+  accent_color: '#4BA3E3'
+  accent_hover_color: '#4B7DE3'   # adjust-hue(accent_color, 15deg)
+  border_color: '#2B323B'
+  hero_background_color: '#0B1216'
+  hero_text_color: '#ffffff'
+  error_color: '#E2635A'
+
 font_settings:
   font_embed: '<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet">'
   title_font: '"Muli", sans-serif'
