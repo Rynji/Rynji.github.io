@@ -147,7 +147,7 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: rgba($background-color,0.95);
+	background: color-mix(in srgb, $background-color 95%, transparent);
 	overflow: auto;
 
 	visibility: hidden;

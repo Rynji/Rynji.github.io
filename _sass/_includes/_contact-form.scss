@@ -89,16 +89,16 @@
 }
 
 ::-webkit-input-placeholder {
-	color: lighten($text-light-color,15%);
+	color: $text-lighter-color;
 }
 ::-moz-placeholder {
-	color: lighten($text-light-color,15%);
+	color: $text-lighter-color;
 }
 :-ms-input-placeholder {
-	color: lighten($text-light-color,15%);
+	color: $text-lighter-color;
 }
 :-moz-placeholder {
-	color: lighten($text-light-color,15%);
+	color: $text-lighter-color;
 }
 
 .contact-form__textarea {
